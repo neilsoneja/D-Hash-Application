@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+input:focus {
+  outline:none;
+}
+
+body {
+  background: #cbc289;
+}
+
+/*----------Nav Bar----------*/
+nav {
+  height: 2000px;
+}
+
+/*----------Header----------*/
+
+
+/*----------Search Bar----------*/
+
+
+/*----------Index(Main Menu)----------*/
+
+.menu{
+  background: #cbc289;
+}
+
+.product-container .card{
+  border: none;
+  background: #cbc289;
+  margin-left: 55px;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.product-container .card .product-box{
+  background-color: #31241b;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px  #25190d;;
+  padding: 20px 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  max-width: 300px;
+
+}
+
+.text-center{
+  text-align: center;
+}
+
+.product-container .card .product-box img{
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 5px;
+  border: 3px solid #cbc289;
+}
+
+.product-container .card .product-box h3{
+  text-decoration: none;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 2px;
+  color: #cbc289;
+}
+
+.product-container .card .product-box p{
+  text-decoration: none;
+  color: #cbc289;
+  font-size: 15px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 2px;
+}
+
+.product-container .card .product-box input{
+  border: 2px solid #274e13;
+  background-color: #cbc289;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.product-container .card .product-box input:hover{
+  box-shadow: 0px 5px 5px #722200;
+}
+
+/*----------Products Page----------*/
+
+.product{
+  margin: auto;
+  border: 3px solid #274e13;
+  background-color: #31241b;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0px 5px 5px 5px  #25190d;;
+  padding: 20px 20px;
+  text-align: center;
+  max-width: 80%;
+  
+}
+
+.product .product-page-container .card{
+  border: none;
+}
+
+.product .product-page-container .product-box{
+  border: none;
+  background-color: #31241b;
+}
+
+
+.product .product-page-container .product-box img{
+  margin: 25px;
+  border: 3px solid #cbc289;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.product .product-page-container .product-box h3{
+  margin: 25px;
+  font-size: 30px;
+  color: #cbc289;
+}
+
+.product .product-page-container .product-box p{
+  margin: 25px;
+  font-size: 15px;
+  color: #cbc289;
+}
+
+.product .product-page-container .product-box input{
+  margin-top: 140px;
+  border: 2px solid #274e13;
+  background-color: #cbc289;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/*----------Cart----------*/
+
+table {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.main_content .cart-container .products{
+  background-color: #31241b;
+  border: solid 3px #274e13;
+  padding: 20px 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.main_content .cart-container .price{
+  background-color: #31241b;
+  border: solid 3px #274e13;
+  padding: 20px 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.main_content .cart-container input{
+  margin-top: 20px;
+}
+
+.main_content .cart-container img{
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 3px solid #cbc289;
+  border-radius: 10px;
+  background-color: #25190d;
+}
+
+.main_content table p{
+  margin: 25px;
+  font-size: 15px;
+  color: #cbc289;
+}
+
+.main_content table h3{
+  margin: 25px;
+  font-size: 30px;
+  color: #cbc289;
+}
+
+
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.popup{
+    background-color: white;
+    width: 450px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+}
+
+.alb {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+}
+.alb img {
+  width: 100%;
+  height: 100%;
+}

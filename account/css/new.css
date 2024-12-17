@@ -1,0 +1,64 @@
+.ground-brown {
+    background-color: #bbb079 !important;
+}
+
+.ground-color {
+    color: #bbb079;
+  }
+
+.ground-dark {
+    background-color: #312519 !important;
+}
+
+
+
+
+.shadow {
+    text-shadow: 2px 2px #312519;
+    }
+
+
+@font-face {
+    font-family: 'Sailyme'; 
+    src: url('/Kaye-Bakes-2/fonts/Sailyme.ttf'); 
+}
+
+@font-face {
+    font-family: 'bebas'; 
+    src: url('/Kaye-Bakes-2/fonts/bebas-webfont.ttf'); 
+}
+
+.sailyme {
+    font-family: 'Sailyme';
+}
+
+.bebas {
+    font-family: 'bebas';
+}
+
+
+.newbtn {
+    background-color: #bbb079;
+ }
+
+ .bgbrown {
+    background: #31241b;
+}
+
+.bg-lt-brown {
+    background: #423326;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: #cbc289;
+}
+
+.nav-item>a:hover {
+    color: #c6b485;
+}
+
+.navbar-nav>.active>a {
+    background-color: #c6c185;
+    color: #E7DA9A;
+}

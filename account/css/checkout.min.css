@@ -1,0 +1,31 @@
+body {
+    background: #cbc289;
+}
+
+
+.form-container {
+    border: 3px solid #274e13;
+    background-color: #31241b;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px 5px 5px 5px  #25190d;;
+    padding: 20px 20px;
+
+}
+
+.form-container h1{
+    color: #cbc289;
+}
+
+
+.form-container h4{
+    color: #cbc289;
+}
+
+.form-container label{
+    color: #cbc289;
+}
+
+.form-container p{
+    color: #cbc289;
+}

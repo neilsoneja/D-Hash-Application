@@ -1,0 +1,8 @@
+> pyhton3 pip install numpy
+> pyhton3 pip install opencv-contrib-python
+> pyhton3 pip install imutils
+> pyhton3 pip install vptree
+
+> python3 index_images.py 
+
+>python3 search.py -q query1.jpg 	
